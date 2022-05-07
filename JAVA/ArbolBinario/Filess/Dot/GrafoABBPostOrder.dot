@@ -1,0 +1,33 @@
+digraph Capas{
+ edge[color = Red;]
+splines=line;
+node[shape= record, style=filled, fillcolor=lightblue, height= .1];
+node5[label="<C0>|5|<C1>"];
+node11:C0->node5;
+node11[label="<C0>|11|<C1>"];
+node12:C0->node11;
+node17[label="<C0>|17|<C1>"];
+node23:C0->node17;
+node23[label="<C0>|23|<C1>"];
+node12:C1->node23;
+node12[label="<C0>|12|<C1>"];
+node24:C0->node12;
+node24[label="<C0>|24|<C1>"];
+node25:C0->node24;
+node62[label="<C0>|62|<C1>"];
+node57:C1->node62;
+node57[label="<C0>|57|<C1>"];
+node81:C0->node57;
+node81[label="<C0>|81|<C1>"];
+node87:C0->node81;
+node87[label="<C0>|87|<C1>"];
+node46:C1->node87;
+node46[label="<C0>|46|<C1>"];
+node110:C0->node46;
+node110[label="<C0>|110|<C1>"];
+node34:C1->node110;
+node34[label="<C0>|34|<C1>"];
+node25:C1->node34;
+node25[label="<C0>|25|<C1>"];
+
+}
