@@ -26,8 +26,8 @@
 | 5  | Lista circular enlazada | Es una lista enlazada donde todos los nodos están conectados para formar un círculo. No hay NULL al final.  | 
 | 6  | Lista doblemente enlazada circular  | Es una lista enlazada donde todos los nodos están conectados para formar un círculo y se puede avanzar tanto hacia adelante como hacia atrar. No hay NULL al final.  | 
 | 7  | Lista de listas  | Es una estructura en la que cada nodo de una lista posee otra lista   | 
-| 8  | Matriz Ortogonal  | Este toke  | String  |
-| 9  | Matriz Dispersa  | Este toke  | String  |
+| 8  | Matriz Ortogonal  | Una matriz o arreglo bidimensional es un área de almacenamiento. continua, que contiene una serie de elementos del mismo tipo, Lógicamente, una matriz puede verse como un conjunto de elementos en fila, o filas y columnas si tuvieran dos dimensiones.  |
+| 9  | Matriz Dispersa  | En muchas ocasiones, las matrices contienen más valores 0 que valores que no son 0. Esto puede no ser tan óptimo en el caso de que no todos los espacios del arreglo tengan un valor que nos funcione.  | String  |
 | 10 | Arbol avl  | El árbol AVL es un árbol de búsqueda binario autoequilibrado en el que cada nodo mantiene información adicional llamada factor de equilibrio cuyo valor es -1, 0 o +1.  | 
 | 11 | Arbol binario de busqueda  | Un árbol de búsqueda binaria sigue algún orden para organizar los elementos. En un árbol de búsqueda binario, el valor del nodo izquierdo debe ser menor que el nodo principal y el valor del nodo derecho debe ser mayor que el nodo principal. Esta regla se aplica recursivamente a los subárboles izquierdo y derecho de la raíz.  | 
 
