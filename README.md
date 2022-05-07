@@ -1,6 +1,4 @@
-# List of structures that this repository will contain
-#//
-#Lista de estructuras que contendrá este repositorio
+# List of structures that this repository will contain // Lista de estructuras que contendrá este repositorio
 
 
 |   #   |   Structure   |   Description   |   
