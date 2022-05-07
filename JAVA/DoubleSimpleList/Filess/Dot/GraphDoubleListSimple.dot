@@ -1,0 +1,20 @@
+digraph DoubleList{
+ edge[color = Red];
+splines=line;
+rankdir=LR
+node[shape= record, style=filled, fillcolor=lightblue, height= .1];
+node0[label="ID:0\nDatos: Carlos "];
+node1[label="ID:1\nDatos: Alejandro "];
+node2[label="ID:2\nDatos: Marta "];
+node3[label="ID:3\nDatos: Valery "];
+node4[label="ID:4\nDatos: Jose "];
+node0->node1;
+node1->node0;
+node1->node2;
+node2->node1;
+node2->node3;
+node3->node2;
+node3->node4;
+node4->node3;
+
+}
