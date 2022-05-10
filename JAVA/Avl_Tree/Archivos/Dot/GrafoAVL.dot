@@ -1,0 +1,31 @@
+digraph Imagenes{
+ edge[color = Red;]
+splines=line;
+node[shape= record, style=filled, fillcolor=lightblue, height= .1];
+node30[label="<izq> | <f>30|<der>"];
+node9[label="<izq> | <f>9|<der>"];
+node4[label="<izq> | <f>4|<der>"];
+node1[label="<izq> | <f>1|<der>"];
+"node4":izq -> "node1":f;
+node5[label="<izq> | <f>5|<der>"];
+"node4":der -> "node5":f;
+"node9":izq -> "node4":f;
+node15[label="<izq> | <f>15|<der>"];
+node27[label="<izq> | <f>27|<der>"];
+"node15":der -> "node27":f;
+"node9":der -> "node15":f;
+"node30":izq -> "node9":f;
+node56[label="<izq> | <f>56|<der>"];
+node40[label="<izq> | <f>40|<der>"];
+node37[label="<izq> | <f>37|<der>"];
+"node40":izq -> "node37":f;
+node52[label="<izq> | <f>52|<der>"];
+"node40":der -> "node52":f;
+"node56":izq -> "node40":f;
+node98[label="<izq> | <f>98|<der>"];
+node101[label="<izq> | <f>101|<der>"];
+"node98":der -> "node101":f;
+"node56":der -> "node98":f;
+"node30":der -> "node56":f;
+
+}
