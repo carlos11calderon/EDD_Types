@@ -1,0 +1,61 @@
+digraph Matriz{
+ edge[color = black;]
+splines=ortho;
+node[shape= record, style=filled, fillcolor=lightblue];
+raiz[label="Raiz", group=1];
+edge[dir="both"]
+Fila0[label="0" group=1]
+Fila1[label="1" group=1]
+Fila2[label="2" group=1]
+Fila3[label="3" group=1]
+Fila4[label="4" group=1]
+Fila5[label="5" group=1]
+Fila0->Fila1
+->Fila2
+->Fila3
+->Fila4
+->Fila5
+;Columna0[label="0",group=2]
+Columna1[label="1",group=3]
+Columna2[label="2",group=4]
+Columna3[label="3",group=5]
+Columna4[label="4",group=6]
+Columna0->Columna1
+->Columna2
+->Columna3
+->Columna4
+;
+raiz->Fila0
+raiz->Columna0
+{rank=same;raiz;Columna0;Columna1;Columna2;Columna3;Columna4}
+NodoFila1Col1[label="", fillcolor="#913737",group=3 ]
+NodoFila3Col2[label="", fillcolor="#ba9a56",group=4 ]
+NodoFila4Col2[label="", fillcolor="#dce305",group=4 ]
+NodoFila4Col4[label="", fillcolor="#a12525",group=6 ]
+NodoFila5Col2[label="", fillcolor="#6bbd2d",group=4 ]
+NodoFila5Col3[label="", fillcolor="#862dbd",group=5 ]
+Fila1
+->NodoFila1Col1;
+{rank=same;Fila1;NodoFila1Col1}
+Fila3
+->NodoFila3Col2;
+{rank=same;Fila3;NodoFila3Col2}
+Fila4
+->NodoFila4Col2
+->NodoFila4Col4;
+{rank=same;Fila4;NodoFila4Col2;NodoFila4Col4}
+Fila5
+->NodoFila5Col2
+->NodoFila5Col3;
+{rank=same;Fila5;NodoFila5Col2;NodoFila5Col3}
+Columna1
+->NodoFila1Col1;
+Columna2
+->NodoFila3Col2
+->NodoFila4Col2
+->NodoFila5Col2;
+Columna3
+->NodoFila5Col3;
+Columna4
+->NodoFila4Col4;
+}
